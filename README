@@ -1,0 +1,50 @@
+# Movie Recommender System
+
+## Description
+This project is a C++ Movie Recommender System that provides personalized movie
+ recommendations based on user preferences. It reads user and movie data to
+  suggest movies that align with individual user tastes.
+
+## Features
+- Loads user data and preferences
+- Reads movie information
+- Recommends movies based on user preferences
+- Efficient recommendation algorithm
+
+## Files
+- `RSUser.cpp` / `RSUser.h`: Handles user data and preferences.
+- `RSUsersLoader.cpp` / `RSUsersLoader.h`: Loads and processes user data.
+- `Movie.cpp` / `Movie.h`: Manages movie information and attributes.
+- `RecommenderSystem.cpp` / `RecommenderSystem.h`: Core recommendation logic.
+- `RecommenderSystemLoader.cpp` / `RecommenderSystemLoader.h`: Loads and
+ initializes the recommender system.
+
+## Installation
+1. Clone the repository.
+    ```bash
+    git clone <repository-url>
+    ```
+2. Navigate to the project directory.
+    ```bash
+    cd movie-recommender-system
+    ```
+3. Compile the source code.
+    ```bash
+    g++ -o recommender RSUser.cpp RSUsersLoader.cpp Movie.cpp
+     RecommenderSystem.cpp RecommenderSystemLoader.cpp
+    ```
+
+## Usage
+1. Run the compiled executable.
+    ```bash
+    ./recommender
+    ```
+2. Follow the prompts to input user preferences and receive movie recommendations.
+
+## Contributions
+Contributions are welcome! Please fork the repository and create a pull
+ request with your improvements or fixes.
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for
+more details.
